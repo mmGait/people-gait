@@ -1,11 +1,8 @@
 # people-gait
-  We collect a total of 30 hours of data from 95 volunteers5.
-The data set contains two types of walking trajectories in cludes fixed route and free route where is up to 5 volunteers
-walking at the same time. For fixed route, volunteers walked back and forth on the fixed route 25 times, collected about 5
-minutes; free route collected about 10 minutes.
+The file 4/631/1443/xx_xx_xx_xx.scvmeans the data collect from the device IWR 1443 there are co-existing 4 people walking at the room 631.
+  We collect a total of 30 hours of data from 95 volunteers5. The data set contains two types of walking trajectories in cludes fixed route and free route where is up to 5 volunteers walking at the same time. For fixed route, volunteers walked back and forth on the fixed route 25 times, collected about 5 minutes; free route collected about 10 minutes.
 
-  Volunteers. We collect mmGait from 95 recruit volunteers. mmGait contains 45 male volunteers and 50 female volunteers. The age of the volunteers is between 19 and 27. More than half of the volunteers are aged 20 and 21. The height of the volunteers is between 150cm and 185 cm. With more than two-thirds of the total population in the range of 160 cm to 180 cm. The weight distribution of the volunteers
-is between 41kg and 115kg. More than half of the volunteers weigh between 50 and 65 kilograms.
+  Volunteers. We collect mmGait from 95 recruit volunteers. mmGait contains 45 male volunteers and 50 female volunteers. The age of the volunteers is between 19 and 27. More than half of the volunteers are aged 20 and 21. The height of the volunteers is between 150cm and 185 cm. With more than two-thirds of the total population in the range of 160 cm to 180 cm. The weight distribution of the volunteers is between 41kg and 115kg. More than half of the volunteers weigh between 50 and 65 kilograms.
 
   Data composition. The number of volunteers in the dataset is shown in Table 1. For example,The number 25 in row 3vol-sim and scene2 fixed route column means there are 25 volunteers took part in an experiment where volunteers need to walk with other two volunteers on fixed route in scene2.
   
