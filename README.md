@@ -5,7 +5,7 @@
 The file # people-gait/611/4/guding/1443/xx_xx_xx_xx_1443_mid_guding.csv means the data collect from the device IWR 1443 there are co-existing 4 people walking on the fixed route at the room 631.
 The file # people-gait/611/4/ziyou/1443/xx_xx_xx_xx_1443_mid_guding.csv means the data collect from the device IWR 1443 there are co-existing 4 people walking on the free route at the room 631.
 
-![image]()
+![image](https://github.com/mmGait/people-gait/blob/master/people.jpeg)
  # Volunteers.
   We collect mmGait from 95 recruit volunteers. mmGait contains 45 male volunteers and 50 female volunteers. The age of the volunteers is between 19 and 27. More than half of the volunteers are aged 20 and 21. The height of the volunteers is between 150cm and 185 cm. With more than two-thirds of the total population in the range of 160 cm to 180 cm. The weight distribution of the volunteers is between 41kg and 115kg. More than half of the volunteers weigh between 50 and 65 kilograms.
 
