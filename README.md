@@ -15,12 +15,13 @@
   The number of volunteers in the dataset is shown in Table 1. For example, the number 25 in row 3vol-sim and scene2 fixed route column means there are 25 volunteers took part in an experiment where a volunteer walks with another two volunteers on fixed route in scene2.
   
  # Data format. 
-  The .csv file is a sequence of poind cloud collect from mulity co-existing walking people. Point cloud contains several points. Each line in the file records a point, and each column represents an attribute of the point. The meaning of each column in the document is as follows:
-  Frame \#: Frame number of the point cloud where the point is located. 
-  \# Obj: The number of points in the point cloud where the point is located.
-  X: The position of the point in X dimension, m
-  Y: The position of the point in Y dimension, m
-  Z: The position of the point in Z dimension, m
-  Doppler：Radial velocity of the point, m/s
-  Intensity：Peak Value (relates to the strength of the detection)
-  y, m, d, h, m, s；Time to get the point.
+  The .csv file is a sequence of poind cloud collect from mulity co-existing walking people. Point cloud contains several points. Each line in the file records a point, and each column represents an attribute of the point. The meaning of each column in the document is as follows:  
+  Frame \#: Frame number of the point cloud where the point is located.  
+  \# Obj: The number of points in the point cloud where the point is located.  
+  X: The position of the point in X dimension, m  
+  Y: The position of the point in Y dimension, m  
+  Z: The position of the point in Z dimension, m  
+  Doppler：Radial velocity of the point, m/s  
+  Intensity：Peak Value (relates to the strength of the detection)  
+  y, m, d, h, m, s；Time to get the point.  
+  
