@@ -1,7 +1,8 @@
 # Human gait in "mmWave" eyes
   
   Data for AAAI2020 paper 'https://www.aaai.org/Papers/AAAI/2020GB/AAAI-MengZ.4055.pdf'  
-  Zhen Meng, Song Fu, Jie Yan, Hongyuan Liang, Anfu Zhou, Shilin Zhu, Huadong Ma, Jianhua Liu, Ning Yang  
+  Zhen Meng, Song Fu, Jie Yan, Hongyuan Liang, Anfu Zhou, Shilin Zhu, Huadong Ma, Jianhua Liu, Ning Yang.  
+  
   We collect a total of 30 hours of gait data from 95 volunteers. The data set contains two types of walking trajectories includes fixed route and free route, wherein up to 5 volunteers walk at the same time. For fixed route, each volunteer walked back and forth on the fixed route 25 times, lasting about 5 minutes; For free route, each volunteers walked freely in the test scenario for about 10 minutes.
 
 # Name rules.
