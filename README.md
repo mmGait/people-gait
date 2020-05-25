@@ -1,19 +1,26 @@
-# people-gait
+# Human gait in ‘mmWave’ eyes
 
-  We collect a total of 30 hours of data from 95 volunteers5. The data set contains two types of walking trajectories in cludes fixed route and free route where is up to 5 volunteers walking at the same time. For fixed route, volunteers walked back and forth on the fixed route 25 times, collected about 5 minutes; free route collected about 10 minutes.
-  
-The file # people-gait/611/4/guding/1443/xx_xx_xx_xx_1443_mid_guding.csv means the data collect from the device IWR 1443 there are co-existing 4 people walking on the fixed route at the room 631.
-The file # people-gait/611/4/ziyou/1443/xx_xx_xx_xx_1443_mid_guding.csv means the data collect from the device IWR 1443 there are co-existing 4 people walking on the free route at the room 631.
+  We collect a total of 30 hours of gait data from 95 volunteers. The data set contains two types of walking trajectories includes fixed route and free route, wherein up to 5 volunteers walk at the same time. For fixed route, each volunteer walked back and forth on the fixed route 25 times, lasting about 5 minutes; For free route, each volunteers walked freely in the test scenario for about 10 minutes.
+
+# Name rules.
+  The file # people-gait/room1/4/fixed_route/77Ghz_device/xx_xx_xx_xx.csv means the data collect from the device with the mmWave frequency band of 77 to 81Ghz. There are 4 co-existing people walking on the fixed route in the scene1.
+  The file # people-gait/room2/3/free_rout/60Ghz_device/xx_xx_xx.csv means the data collect from the device with the mmWave frequency band of 60 to 64Ghz. There are 3 co-existing people walking freely in the scene2.
 
 ![image](https://github.com/mmGait/people-gait/blob/master/people.jpeg)
 
  # Volunteers.
-  We collect mmGait from 95 recruit volunteers. mmGait contains 45 male volunteers and 50 female volunteers. The age of the volunteers is between 19 and 27. More than half of the volunteers are aged 20 and 21. The height of the volunteers is between 150cm and 185 cm. With more than two-thirds of the total population in the range of 160 cm to 180 cm. The weight distribution of the volunteers is between 41kg and 115kg. More than half of the volunteers weigh between 50 and 65 kilograms.
+  There are 45 male volunteers and 50 female volunteers. The age of the volunteers is between 19 and 27. More than half of the volunteers are aged 20 and 21(college students in our university). The height of the volunteers is between 150cm and 185 cm, and more than two-thirds of the total population in the range of 160 cm to 180 cm. The weight distribution of the volunteers is between 41kg and 115kg. More than half of the volunteers weigh between 50 and 65 kg.
 
  # Data composition. 
-  The number of volunteers in the dataset is shown in Table 1. For example,The number 25 in row 3vol-sim and scene2 fixed route column means there are 25 volunteers took part in an experiment where volunteers need to walk with other two volunteers on fixed route in scene2.
-  
-  ![image](https://github.com/mmGait/people-gait/blob/master/point.jpg)
+  The number of volunteers in the dataset is shown in Table 1. For example, the number 25 in row 3vol-sim and scene2 fixed route column means there are 25 volunteers took part in an experiment where a volunteer walks with another two volunteers on fixed route in scene2.
   
  # Data format. 
-  The data collected by our sensors are very sparse, as shown in Fig. 2. That is because the human body acts as a reflector rather than a scatter. At any point in time, our sensor can capture only a subset of the radio frequency reflections off the human body. Fig. 2 confirms two facts. Firstly, as the number of volunteers walking increases simultaneously, the number of points in the point cloud increases. However, the increase in the number of points becomes smaller. Secondly, as the number of volunteers walking increases simultaneously, the number of points for a volunteer in the point cloud decreases. This is because, first, he output capacity of the sensor is limited. As the number of points in the point cloud increases, the sensor only could output the points with higher confidence. What’s more, asthe number of points in the point cloud increases, the probability of a volunteer occluded by other volunteers is increasing. For example, when five people are walking, the sensors could only detect three people most of the time. Hence as the number of people increases, the increase in the number of points becomes smaller and there will be fewer points on each person. The two sensors work at the same time can effectively increase the density of point cloud and effectively reduce the occlusion of volunteers.
+  The .csv file is a sequence of poind cloud collect from mulity co-existing walking people. Point cloud contains several points. Each line in the file records a point, and each column represents an attribute of the point. The meaning of each column in the document is as follows:
+  Frame \#: Frame number of the point cloud where the point is located. 
+  \# Obj: The number of points in the point cloud where the point is located.
+  X: The position of the point in X dimension, m
+  Y: The position of the point in Y dimension, m
+  Z: The position of the point in Z dimension, m
+  Doppler：Radial velocity of the point, m/s
+  Intensity：Peak Value (relates to the strength of the detection)
+  y, m, d, h, m, s；Time to get the point.
